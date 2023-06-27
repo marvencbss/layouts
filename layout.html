@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 1 - block e inline</title>
+    <style>
+        p {
+            background-color: grey;            
+        }
+        span {
+            background-color: aquamarine;
+            padding: 8px;
+            margin: 4px;            
+        }
+        .em-linha span {
+            display: inline;
+        }
+        .bloco span {
+            display: block;
+        }
+        .bloco-em-linha span {
+            display: inline-block;            
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Exemplos</h1>
+    <h2>inline</h2>
+    <p class="em-linha">
+        <span>Oi</span>
+        <span>Oi</span>
+        <span>Oi</span>
+    </p>
+
+    <h2>block</h2>
+    <p class="bloco" >
+        <span>Oi</span>
+        <span>Oi</span>
+        <span>Oi</span>
+    </p>
+
+    <h2>inline-block</h2>
+    <p class="bloco-em-linha">
+        <span>Oi</span>
+        <span>Oi</span>
+        <span>Oi</span>
+    </p>
+</body>
+</html>
